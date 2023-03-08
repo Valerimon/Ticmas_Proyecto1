@@ -1,14 +1,13 @@
-document.getElementById('button').submit =function mostrar_alerta () {
+document.getElementById('button').onclick =function mostrar_alerta () {
     alert("Solicitud de contacto enviada satisfactoriamente")
 }
 
-//EVENTO QUE SE EJECUTA SIN PROBLEMA POR SI SOLO, PERO AL TENER AMBOS (SUBMIT), EL SEGUNDO NO SE EJECUTA)
+//EVENTO QUE SE EJECUTA SIN PROBLEMA POR SI SOLO, EL SEGUNDO NO SE EJECUTA)
 document.getElementById('video').onclick = function () {
     console.log("Evento exitoso")
 document.getElementById("fullstack").innerHTML= "¡Ahora conoces la importancia de contratarnos!";
     
 }
-
 
 
 //const formulario =document.getElementById('form')
